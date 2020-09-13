@@ -21,7 +21,7 @@ def continue_game(call):
             test = bot.send_message(call.message.chat.id, "Чем займёмся?", reply_markup=use.button_second)
             #bot.send_message(call.message.chat.id, "" ,reply_markup=use.startend)
     if call.data == 'test':
-        bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text="Вот твой тест")
+        bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text="Вот твой тест:")
         bot.send_message(call.message.chat.id, "Вернуться к началу" ,reply_markup=use.button_to_start)
     if call.data == 'read':
         bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text="Твой текст, приятного чтения")
