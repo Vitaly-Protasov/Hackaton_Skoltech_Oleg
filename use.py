@@ -1,6 +1,15 @@
+import 
 import telebot
-types = telebot.types
+import os
+import requests
+import use
+import re
+import numpy as np
+import time
+from oleg import *
 
+
+types = telebot.types
 button_zero = types.InlineKeyboardMarkup()
 btn0 = types.InlineKeyboardButton(text="Начать тест", callback_data='test')
 button_zero.row(btn0)
@@ -22,3 +31,9 @@ for btn in list_of_buttons:
 button_to_start = types.InlineKeyboardMarkup()
 btn5 = types.InlineKeyboardButton(text="Назад", callback_data='back2')
 button_to_start.row(btn5)
+
+
+if __name__ == '__main__':
+    token = ''
+    bot = OlegBot(token, )
+    bot.polling(none_stop=True)
