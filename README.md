@@ -10,3 +10,13 @@ Using our bot you can stady field related to the finance, get your score for eac
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/gfLpz7g6rHg/0.jpg)](http://www.youtube.com/watch?v=gfLpz7g6rHg "Video Title")
 
+### How to start
+
+You can start it by the following command: 
+```
+token = # put in your bot token
+```
+
+```
+python oleg.py
+```
