@@ -12,8 +12,8 @@ button_first.row(btn1)
 
 button_second = types.InlineKeyboardMarkup()
 button_second.row_width = 2
-btn2 = types.InlineKeyboardButton(text="Продолжить читать", callback_data='read')
-btn3 = types.InlineKeyboardButton(text="Экзамен", callback_data='exam')
+btn2 = types.InlineKeyboardButton(text="Изучить материал", callback_data='read')
+btn3 = types.InlineKeyboardButton(text="Сдать экзамен по теме", callback_data='exam')
 btn4 = types.InlineKeyboardButton(text="Назад", callback_data='back')
 list_of_buttons = [btn2, btn3, btn4]
 for btn in list_of_buttons:
