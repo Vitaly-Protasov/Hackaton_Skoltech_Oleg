@@ -5,7 +5,7 @@ import use
 import re
 import numpy as np
 import time
-token = '1304469910:AAEAZdGl2lcdKCa4PggTdPyckP-BscCObxs'
+token = ''
 oleg_data_folder = 'oleg_bot_data'
 bot = telebot.TeleBot(token)
 
